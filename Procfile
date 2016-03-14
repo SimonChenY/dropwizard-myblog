@@ -1,1 +1,1 @@
-web: java  -Ddw.http.adminPort=$PORT -jar target/dropwizard-blog-1.0.0-SNAPSHOT.jar server blog.yml
+web: java -jar -Ddw.http.adminPort=$PORT target/dropwizard-blog-1.0.0-SNAPSHOT.jar server blog.yml
