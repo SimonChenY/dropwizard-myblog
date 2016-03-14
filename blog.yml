@@ -10,12 +10,6 @@ database:
   # the name of your JDBC driver
   driverClass: org.postgresql.Driver
 
-  # the username
-  user: luckyzhou
-
-  # the password
-  password: luckyzhou
-
   # the JDBC URL
   url: postgres://ncchnaspjatdsn:ftAPCl-QwfRX6ayWz47m9evLtf@ec2-107-21-101-67.compute-1.amazonaws.com:5432/dd10fnlj105m65
 
