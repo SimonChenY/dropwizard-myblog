@@ -16,6 +16,7 @@ hs_err_pid*
 *.iml
 *.ipr
 *.iws
+.idea/*
 
 # Others
 dependency-reduced-pom.xml

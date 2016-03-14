@@ -9,7 +9,7 @@ import javax.persistence.*;
 @NamedQueries({
         @NamedQuery(
                 name = "com.zs.blog.core.Blog.findAll",
-                query = "SELECT b FROM Blog b"
+                query = "FROM Blog b"
         )
 })
 public class Blog {

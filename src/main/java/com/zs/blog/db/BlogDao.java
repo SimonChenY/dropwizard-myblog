@@ -1,6 +1,7 @@
 package com.zs.blog.db;
 
 import com.zs.blog.core.Blog;
+import org.hibernate.Criteria;
 import org.hibernate.SessionFactory;
 
 import java.util.List;
@@ -11,7 +12,8 @@ public class BlogDao extends BaseDao<Blog> {
         super(sessionFactory);
     }
 
-    public List<Blog> findAll() {
-        return list(namedQuery("com.zs.blog.core.Blog.findAll"));
+    @Override
+    public List<Blog> findAllByCriteria(Criteria criteria) {
+        return super.findAllByCriteria(criteria);
     }
 }
