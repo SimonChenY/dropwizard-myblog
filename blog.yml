@@ -1,5 +1,5 @@
 server:
-  - type: heroku
+- type: heroku
 
 database:
   # the name of your JDBC driver
