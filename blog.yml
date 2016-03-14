@@ -17,7 +17,7 @@ database:
   password: luckyzhou
 
   # the JDBC URL
-  url: jdbc:postgresql://localhost:5432/myblog
+  url: postgres://ncchnaspjatdsn:ftAPCl-QwfRX6ayWz47m9evLtf@ec2-107-21-101-67.compute-1.amazonaws.com:5432/dd10fnlj105m65
 
   # any properties specific to your JDBC driver:
   properties:
