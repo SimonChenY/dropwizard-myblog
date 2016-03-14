@@ -11,7 +11,7 @@ database:
   driverClass: org.postgresql.Driver
 
   # the JDBC URL
-  url: postgres://ncchnaspjatdsn:ftAPCl-QwfRX6ayWz47m9evLtf@ec2-107-21-101-67.compute-1.amazonaws.com:5432/dd10fnlj105m65
+  url: jdbc:postgresql://ec2-54-235-152-114.compute-1.amazonaws.com:5432/dd3j8ugj1lcqb0?user=mursjisgtnytuv&password=N5MIBEKExZk7ccgxs8jyL-QLVQ&sslmode=require
 
   # any properties specific to your JDBC driver:
   properties:
