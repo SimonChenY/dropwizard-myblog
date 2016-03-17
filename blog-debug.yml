@@ -11,14 +11,14 @@ database:
   driverClass: org.postgresql.Driver
 
   # the username
-  #user: luckyzhou
+  user: admin
 
   # the password
-  # password: luckyzhou
+  password: admin
 
   # the JDBC URL
-  url: jdbc:postgresql://ec2-54-235-152-114.compute-1.amazonaws.com:5432/dd3j8ugj1lcqb0?user=mursjisgtnytuv&password=N5MIBEKExZk7ccgxs8jyL-QLVQ&sslmode=require
-  # url: jdbc:postgresql://localhost:5432/myblog
+  # url: jdbc:postgresql://ec2-54-235-152-114.compute-1.amazonaws.com:5432/dd3j8ugj1lcqb0?user=mursjisgtnytuv&password=N5MIBEKExZk7ccgxs8jyL-QLVQ&sslmode=require
+  url: jdbc:postgresql://localhost:5432/myblog
 
   # any properties specific to your JDBC driver:
   properties:
