@@ -10,7 +10,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import java.util.List;
 
-@Path("/blog")
+@Path("/api/v1/blog")
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 public class BlogResources {
@@ -46,6 +46,5 @@ public class BlogResources {
         if(id.get() < 1) blog.setId(null);
         return blogDao.createAndUpdate(blog);
     }
-
 
 }

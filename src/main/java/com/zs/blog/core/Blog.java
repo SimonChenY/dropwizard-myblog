@@ -1,5 +1,6 @@
 package com.zs.blog.core;
 
+import com.fasterxml.jackson.annotation.JsonView;
 import org.hibernate.validator.constraints.NotEmpty;
 
 import javax.persistence.*;
@@ -23,6 +24,11 @@ public class Blog {
     private String content;
 
     public Blog() {
+    }
+
+    public Blog(String title, String content) {
+        this.title = title;
+        this.content = content;
     }
 
     public Blog(Long id, String title, String content) {
