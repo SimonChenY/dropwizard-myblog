@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: Dropwizard Blog
+Implementation-Version: 1.0.0-SNAPSHOT
+Implementation-Vendor-Id: com.zs
+Build-Jdk: 1.8.0_45
+Built-By: luckyzhou
+Created-By: IntelliJ IDEA
+
