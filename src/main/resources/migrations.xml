@@ -12,12 +12,6 @@
                 <tableExists tableName="blog"/>
             </not>
         </preConditions>
-        <!--<createTable tableName="category">-->
-            <!--<column name="id" type="int" autoIncrement="true">-->
-                <!--<constraints primaryKey="true" nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="name" type="text" />-->
-        <!--</createTable>-->
         <createTable tableName="blog">
             <column name="id" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false"/>
@@ -25,12 +19,6 @@
             <column name="title" type="text">
                 <constraints nullable="false"/>
             </column>
-            <!--<column name="author" type="text" defaultValue="lzhou">-->
-                <!--<constraints nullable="false"/>-->
-            <!--</column>-->
-            <!--<column name="category_id" type="int" defaultValue="0">-->
-                <!--<constraints nullable="false" />-->
-            <!--</column>-->
             <column name="content" type="text"/>
         </createTable>
     </changeSet>

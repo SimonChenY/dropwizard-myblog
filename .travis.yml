@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+install:
+  - npm clean install
+script:
+  - mvn test package
+  - git config --global user.email "lucky.zhou@xplusz.com"
+  - git config --global user.name "LuckyZhou880808"
+  - git add target/*
+  - git commit -m "build release"
+deploy:
+  - provider: heroku
+    skip_cleanup: true
+    api_key: "107ad221-0b7b-4c7f-9eeb-40ea5915f057"
