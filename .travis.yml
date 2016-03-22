@@ -12,4 +12,4 @@ script:
 deploy:
   - provider: heroku
     skip_cleanup: true
-    api_key: "107ad221-0b7b-4c7f-9eeb-40ea5915f057"
+    api_key: "0432de36-a083-4be6-a920-8e8156203411"
