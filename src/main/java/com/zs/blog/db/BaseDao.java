@@ -24,7 +24,7 @@ import java.util.Set;
 
 public abstract class BaseDao<T> extends AbstractDAO<T>{
 
-    private final String FIND_ALL = "findAll";
+    private final String FIND_ALL = ".findAll";
     private final Class<?> clazz;
 
     public BaseDao(SessionFactory sessionFactory) {
